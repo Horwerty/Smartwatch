@@ -49,7 +49,7 @@ header {
       flex-direction: row;
       justify-content: space-between;
       padding: 10px;
-      height: 2em;
+      height: 3.5em;
       position: sticky;
       top: 0;
       background-color: #fff;
@@ -63,7 +63,7 @@ header  ul  li {
       /* visibility: visible; */
       list-style: none;
       display: inline-block;
-      font-size: .3em;
+      font-size: .7em;
       padding: 0 5px;
       font-family: 'Tapestry', cursive;
       cursor: pointer;
