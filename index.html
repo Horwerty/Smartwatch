@@ -11,19 +11,21 @@
 <body>
       <header class="hearder">
             <div class="headerA">
-                  <div class="logo">
-                        <h3>Rinz<span>Tech</span></h3>  
-                  </div> 
+                  <a href="#hero">
+                        <div class="logo">
+                              <h3>Rinz<span>Tech</span></h3>  
+                        </div> 
+                  </a>
             </div>
             <div class="headerC">
-                  <div class="menu">
+                  <div class="menuList" id="menuList">
                         <nav id="menuNav">
                              <ul>
-                                   <li>Home</li>
-                                   <li>Product Highlight</li>
-                                   <li>Features</li>
-                                   <li>Products</li>
-                             </ul>
+                                   <li>  <a href="#hero">Home</a></li>
+                                   <li> <a href="#phighlight">Product Highlight</a></li>
+                                   <li> <a href="#feature">Features</a></li>
+                                   <li> <a href="#product">Products</a></li>
+                             </ul> 
                        </nav> 
                  </div>
             </div>
@@ -31,20 +33,23 @@
                   <button>Cart</button>
                   <button>Login</button>
             </div>
+            <div class="menu" id="menu">
+                  <i class='bx bx-menu-alt-right menuIcon' style='color:#2386d4'  id="menuIcon"></i>
+            </div>
       </header>
-      <div class="hero">
-            <div class="heroText">
-                  <h3>RinzTech Smartwatch</h3>
-                  <p>RinzTech Smartwatch has new stock. <br> Remodelled and re-engineeredto make it easier for you to stay active, keep fit, health, and connected.</p>
-                  <button>SHOP NOW</button><button>VIEW MORE</button>
-            </div>
-            <div class="heroImage">
-                  <img src="./images (7)_1.jpeg" alt="Smartwatch">
-            </div>
-      </div>
       <main>
+            <div class="hero" id="hero">
+                  <div class="heroText">
+                        <h3>RinzTech Smartwatch</h3>
+                        <p>RinzTech Smartwatch has new stock. <br> Remodelled and re-engineeredto make it easier for you to stay active, keep fit, health, and connected.</p>
+                        <button>SHOP NOW</button><button>VIEW MORE</button>
+                  </div>
+                  <div class="heroImage">
+                        <img src="./images (7)_1.jpeg" alt="Smartwatch">
+                  </div>
+            </div>
             
-            <div class="phighliht">
+            <div class="phighliht" id="phighlight">
                   <h3>PRODUCT'S HIGHLIGHT</h3>
                   <div class="general">
                         <div id="leftSide">
@@ -59,7 +64,7 @@
                               </div>
                         </div>
                         <div id="middle">
-                              <img src="./images__9_-removebg-preview.png" alt="smartApp">
+                              <img src="./watch-removebg-preview.png" alt="smartApp">
                         </div>
                         <div id="rightSide">
                               <div class="step1">
@@ -74,7 +79,7 @@
                         </div>
                   </div>
             </div>
-            <div class="feature">
+            <div class="feature" id="feature">
                   <h3>FEATURES OF THE DESIGN</h3>
                   <div id="featureDiv">
                         <div class="featureList">
@@ -96,7 +101,7 @@
                         </div>
                   </div>
             </div>
-            <div class="product">
+            <div class="product" id="product">
                   <h3>PRODUCTS</h3>
                   <div class="productCards">
                         <div class="card1">
@@ -120,6 +125,13 @@
                   </div>
                   <div class="dashes">
                         <i class='bx bx-minus bx-rotate-180' style='color:#fff' ></i><i class='bx bx-minus'></i><i class='bx bx-minus bx-rotate-180' style='color:#fff' ></i>
+                  </div>
+                  <div class="pages">
+                        <div>Prev</div>
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                        <div>Next</div>
                   </div>
             </div>
             <div class="comparison">
@@ -199,13 +211,20 @@
                               <img src="https://media.gettyimages.com/photos/portrait-of-female-telephonist-working-in-call-centre-picture-id664667857?k=20&m=664667857&s=612x612&w=0&h=nELTx9jbNlREqznJC-uGSukLxIk3aExc7qTDCBxs9WA=" alt="reviewimage"> 
                          </div>
                          <div id="p2Div">
-                              <i class='bx bxs-star' style='color:#1b1c1c'  ></i><i class='bx bxs-star' style='color:#1b1c1c'  ></i><i class='bx bxs-star' style='color:#1b1c1c'  ></i><i class='bx bxs-star' style='color:#1b1c1c'  ></i><i class='bx bx-star'></i>
+                              <div class="icons"><i class='bx bxs-star' style='color:#1b1c1c'  ></i><i class='bx bxs-star' style='color:#1b1c1c'  ></i><i class='bx bxs-star' style='color:#1b1c1c'  ></i><i class='bx bxs-star' style='color:#1b1c1c'  ></i><i class='bx bx-star'></i></div>
                                <p> <b>"</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sed sapiente quidem sequi eveniet? Incidunt, odit. Blanditiis autem, error magnam itaque laboriosam nihil doloremque consequuntur a, eaque distinctio eligendi qui. <b>"</b></p>
                                <p id="divB"> -Joyce Bruce</p>
                          </div>
                   </div>
                   <div class="dashes">
                         <i class='bx bx-minus bx-rotate-180' style='color:#fff' ></i><i class='bx bx-minus'></i><i class='bx bx-minus bx-rotate-180' style='color:#fff' ></i>
+                  </div>
+                  <div class="pages">
+                        <div>Prev</div>
+                        <div>1</div>
+                        <div>2</div>
+                        <div>....</div>
+                        <div>Next</div>
                   </div>
             </div>
       </main>
@@ -237,13 +256,13 @@
                         <h4>Connect with us</h4>
                         <div class="socialDiv">
                               <i class='bx bxl-linkedin-square' style='color:#237dc5'  ></i>
-                              <!-- <i class='bx bxl-facebook-square'> -->
+                              
                                <i class='bx bxl-facebook-square' style='color:#2180cb'  ></i>
                                <i class='bx bxl-instagram-alt' style='color:#2480c9'  ></i>
                                <i class='bx bxl-twitter' style='color:#2880c7'  ></i>
                               <i class='bx bxl-whatsapp-square' style='color:#2984ce'  ></i>
                               <i class='bx bxl-tiktok' style='color:#1e7bc5'  ></i>
-                              <!-- <i class='bx bxl-tiktok' style='color:#1e7bc5'  ></i> -->
+                             
                         </div>
                   </div>
                   <div id="feeds">
@@ -255,6 +274,7 @@
                         
                   </div>
             </div>
-      </footer>
+      </footer> 
 </body>
+<script src="index.js"></script>
 </html>
